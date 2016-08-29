@@ -1,0 +1,12 @@
+a=0
+b=0
+c=1
+print(b)
+print(c)
+while(a<=10):
+    x=b+c
+    print(x)
+    b=c
+    c=x
+    a=a+1
+print("done")
